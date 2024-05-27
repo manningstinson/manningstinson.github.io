@@ -1,2 +1,1 @@
-# manningstinson.github.io
-Smiles Project - Atlas School
+README.md for CSS Advanced Project

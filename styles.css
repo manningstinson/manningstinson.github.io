@@ -1,0 +1,1223 @@
+body {
+  display: block;
+  margin: 0px !important;
+}
+
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.school-page-container {
+  width: auto;
+  background: #ffffff; /* Add white background */
+  position: relative;
+}
+
+.main-part-container {
+  width: auto;
+  height: 1093px;
+  margin: 0 auto;
+  background-image: url("img/header-background.jpg"); /* Adjust with the actual image file name and path */
+  background-size: cover; /* Scale the image to cover the container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  /* Add any other styles for the main part container if needed */
+}
+
+.header {
+  width: 1050px;
+  height: 29.46px;
+  top: 35.02px;
+  left: 171.59px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 1;
+  position: relative;
+  /* Add any other styles for the header if needed */
+}
+
+#header .logo {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  z-index: 1;
+  float: left;
+}
+
+#header .nav {
+  width: 945px; /* Adjust the width as needed */
+  height: 29.46px; /* Adjust the height as needed */
+  z-index: 1;
+  margin-left: auto;
+  font-size: 0.8em; /* Add any other styles for the menu if needed */
+}
+
+/* Styles for .testimonials-container */
+.testimonials-container {
+  display: flex;
+  width: auto;
+  height: 392px;
+  top: 1093px;
+  gap: 0px;
+  opacity: 1;
+  background: #c271ff;
+  /* Add any other styles for the testimonials container if needed */
+}
+
+.testimonials-container .testimonial {
+  display: flex;
+  height: 158px;
+  top: 1203px;
+  opacity: 1;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.testimonials-container .testimonial-info {
+  height: 158px;
+  top: 1203px;
+  opacity: 1;
+  width: 750px;
+  padding: 50px;
+  margin-top: -40px;
+}
+
+/* Specific styles for .avatar */
+.testimonials-container .testimonial .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("img/avatar.png");
+  background-size: 225% 180%;
+  background-position: center top; /* Center horizontally and align to the top vertically */
+  background-repeat: no-repeat;
+}
+
+.testimonials-container .testimonial .description {
+  color: white; /* Set font color to white */
+  float: left; /* Float elements to the left */
+  clear: both; /* Ensure each div starts on a new line */
+  width: 100%; /* Ensure each div takes up full width */
+  box-sizing: border-box; /* Include padding and border in width */
+  text-align: left; /* Align text to the left */
+  line-height: 22px;
+}
+
+.testimonials-container .testimonial .name {
+  color: white; /* Set font color to white */
+  float: left; /* Float elements to the left */
+  clear: both; /* Ensure each div starts on a new line */
+  width: 100%; /* Ensure each div takes up full width */
+  box-sizing: border-box; /* Include padding and border in width */
+  text-align: left; /* Align text to the left */
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.testimonials-container .testimonial .jobprofile {
+  color: white; /* Set font color to white */
+  float: left; /* Float elements to the left */
+  clear: both; /* Ensure each div starts on a new line */
+  width: 100%; /* Ensure each div takes up full width */
+  box-sizing: border-box; /* Include padding and border in width */
+  text-align: left; /* Align text to the left */
+}
+
+.most-popular-tutorials-container {
+  width: auto;
+  height: 392px;
+  top: 1093px;
+  left: -1px;
+  gap: 0px;
+  opacity: 1; /* Set opacity to 1 to make the container fully visible */
+}
+
+a {
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:link {
+  color: #ffffff; /* White color */
+  font-weight: 700; /* Bold */
+  font-family: sans-serif; /* Apply sans-serif font as fallback */
+  float: right;
+  padding: 0 20px; /* Adjusted padding */
+  font-size: 0.75rem;
+  text-decoration: none; /* Ensure no underline on unvisited links */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+a:visited {
+  text-decoration: none; /* Ensure no underline on visited links */
+}
+
+#header .get-schooled-title {
+  font-size: 3.6em;
+  font-weight: 900 !important;
+  line-height: 150.84px;
+  text-align: center;
+  width: 750px;
+  height: 151px;
+  top: 75px;
+  left: 130px;
+  gap: 0px;
+  opacity: 1;
+  position: relative;
+  color: #fff; /* Ensures top and left work */
+}
+
+#header .title-sub-title-container {
+  width: 400px;
+  height: 20px;
+  top: 226px;
+  left: 0px;
+  gap: 0px;
+  opacity: 1;
+  position: relative;
+}
+
+#header .smiles-sub-title {
+  width: 52px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 35px; /* Adjust the margin as needed */
+  color: #fff;
+}
+#header .grin-sub-title {
+  width: 36px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 35px; /* Adjust the margin as needed */
+  color: #fff;
+}
+#header .laugh-sub-title {
+  width: 49px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 35px; /* Adjust the margin as needed */
+  color: #fff;
+}
+
+#header .subtitles {
+  width: 750px;
+  height: 20px;
+  top: 50px;
+  left: 125px;
+  gap: 0px;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header .header-button {
+  width: 162px;
+  height: 44px;
+  top: 75px;
+  justify-content: center;
+  gap: 0px;
+  opacity: 1;
+  box-shadow: 0px 2px 20px 0px #00000080;
+  position: absolute;
+  display: inline-block;
+  background-color: #c271ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 44px;
+  cursor: pointer;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 200px;
+}
+
+#header .learn-from-the-pros-container {
+  width: 750px;
+  height: 20px;
+  top: 325px;
+  gap: 0px;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  left: 340px;
+}
+
+#header .learn-title-learn {
+  width: 52px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 0px; /* Adjust the margin as needed */
+  color: #c271ff;
+}
+
+#header .learn-title-from-the-pros {
+  width: 350px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 35px; /* Adjust the margin as needed */
+  color: #fff;
+  margin-left: 5px;
+  font-weight: 300;
+}
+
+#header .learn-title-from-the-pros h2 {
+  font-weight: 300 !important; /* Ensure the font weight is normal */
+  margin: 32px; /* Remove any default margin */
+}
+
+#header .learn-the-pros {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  opacity: 1;
+  left: 0px;
+  position: relative;
+  top: 395px;
+  padding: 5px;
+  width: auto;
+  font-weight: 300;
+}
+
+/* First pro container */
+#header .learn-pro-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text */
+  width: 450px;
+}
+
+/* Image for the first pro */
+#header .learn-pro-1-image {
+  width: 150px; /* Size of the container */
+  height: 150px; /* Size of the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-image: url("img/phillip-massey-pro.png"); /* Path to your image */
+  background-size: cover; /* Scale the image to cover the container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Name of the first pro */
+#header .learn-pro-1-name {
+  font-weight: bold;
+  margin-top: 10px; /* Adjust space as needed */
+  color: #fff;
+  margin-top: -10px;
+}
+
+/* Description of the first pro */
+#header .learn-pro-1-description {
+  margin-top: -25px;
+  font-size: 14px;
+  color: #fff;
+}
+
+#header .learn-pro-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text */
+  width: 450px;
+}
+
+/* Image for the first pro */
+#header .learn-pro-2-image {
+  width: 150px; /* Size of the container */
+  height: 150px; /* Size of the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-image: url("img/nannie-lawrence-pro.png"); /* Path to your image */
+  background-size: cover; /* Scale the image to cover the container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Name of the first pro */
+#header .learn-pro-2-name {
+  font-weight: bold;
+  margin-top: 10px; /* Adjust space as needed */
+  color: #fff;
+  margin-top: -10px;
+}
+
+/* Description of the first pro */
+#header .learn-pro-2-description {
+  margin-top: -25px;
+  font-size: 14px; /* Adjust font size as needed */
+  color: #fff;
+}
+
+#header .learn-pro-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text */
+  width: 450px;
+}
+
+/* Image for the first pro */
+#header .learn-pro-3-image {
+  width: 150px; /* Size of the container */
+  height: 150px; /* Size of the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-image: url("img/bruce-walters-pro.png"); /* Path to your image */
+  background-size: cover; /* Scale the image to cover the container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Name of the first pro */
+#header .learn-pro-3-name {
+  font-weight: bold;
+  margin-top: 10px; /* Adjust space as needed */
+  color: #fff;
+  margin-top: -10px;
+}
+
+/* Description of the first pro */
+#header .learn-pro-3-description {
+  margin-top: -25px;
+  font-size: 14px; /* Adjust font size as needed */
+  color: #fff;
+}
+
+#header .learn-pro-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text */
+  width: 450px;
+}
+
+/* Image for the first pro */
+#header .learn-pro-4-image {
+  width: 150px; /* Size of the container */
+  height: 150px; /* Size of the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-image: url("img/henry-hughes-pro.png"); /* Path to your image */
+  background-size: cover; /* Scale the image to cover the container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Name of the first pro */
+#header .learn-pro-4-name {
+  font-weight: bold;
+  margin-top: 10px; /* Adjust space as needed */
+  color: #fff;
+  margin-top: -10px;
+}
+
+/* Description of the first pro */
+#header .learn-pro-4-description {
+  margin-top: -25px;
+  font-size: 14px; /* Adjust font size as needed */
+  color: #555; /* Adjust color as needed */
+  color: #fff;
+}
+
+.most-popular-tutorials-container {
+  width: auto;
+  height: 550px;
+  top: 1093px;
+  gap: 0px;
+  opacity: 1;
+  /* Set opacity to 1 to make the container fully visible */
+}
+
+.most-popular-tutorials-container-tutorial-content {
+  width: 1000px;
+  height: 450px;
+  top: 1572px;
+  gap: 0px;
+  opacity: 1;
+  z-index: 1;
+  position: relative;
+  left: 200px;
+}
+
+#most-popular-tutorials-container-title {
+  line-height: 40.22px;
+  text-align: center;
+  width: 50%;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  left: 340px;
+  font-weight: 300 !important;
+  top: 20px;
+}
+#most-popular-tutorials-title-most {
+  width: auto;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#most-popular-tutorials-title-popular {
+  width: auto;
+  height: 40px;
+  color: #c271ff;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+#most-popular-tutorials-title-tutorials {
+  width: auto;
+  height: 40px;
+  font-size: 25px;
+}
+
+#most-popular-tutorials-container-video-grid {
+  line-height: 40.22px;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#tutorial-1-container {
+  width: 255px;
+  height: 255px;
+  top: 115px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#tutorial-1-container #tutorial-1-video-thumbnail {
+  width: 255px;
+  height: 154px;
+  gap: 0px;
+  border-radius: 5px 5px 0 0;
+  opacity: 0px;
+  background-image: url("img/diaganol-smile-tutorial.png");
+  background-repeat: no-repeat;
+}
+
+#tutorial-1-video-player {
+  width: 64px;
+  height: 64px;
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /* Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
+}
+#tutorial-1-container #tutorial-1-title {
+  width: 200px;
+  height: 20px;
+  top: 150px;
+  gap: 0px;
+  opacity: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+  position: absolute;
+  color: #071629;
+}
+
+#tutorial-1-container #tutorial-1-description {
+  width: 242px;
+  height: 48px;
+  top: 189.6px;
+
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  position: absolute;
+}
+
+#tutorial-1-container #tutorial-1-star-rating-play-time-container {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  top: 310px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+}
+
+#tutorial-1-container #tutorial-1-star-rating {
+  opacity: 1;
+}
+
+#tutorial-1-container #tutorial-1-play-time {
+  opacity: 1;
+  color: #c271ff;
+  font-weight: 700;
+  width: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  margin-top: -5px;
+  margin-left: 100px;
+}
+
+#tutorial-1-container #tutorial-1-author-name-container {
+  display: flex; /* Makes it a flex container */
+  align-items: center; /* Centers items vertically */
+  position: absolute; /* Adjust as needed */
+  top: 270px;
+  left: 0px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+}
+
+#tutorial-1-container #tutorial-1-author-name {
+  width: 100px; /* Adjusted for the name element */
+  height: 30px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  margin-left: 15px; /* Adds spacing between image and name, if needed */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: -30px;
+  color: #c271ff;
+}
+
+#tutorial-1-container #tutorial-1-author-image {
+  width: 25px;
+  height: 25px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  background-image: url("img/phillip-massey-pro.png"); /* Adjusted for the image element */
+  background-size: cover; /* Scale the image to cover the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  left: -50px;
+}
+
+#tutorial-1-container #tutorial-1-video-play-time {
+  width: 34px;
+  height: 27px;
+  top: 297px;
+  left: 199px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: right;
+  position: absolute;
+}
+
+#tutorial-2-container {
+  width: 255px;
+  height: 255px;
+  top: 115px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#tutorial-2-container #tutorial-2-video-thumbnail {
+  width: 255px;
+  height: 154px;
+  gap: 0px;
+  border-radius: 5px 5px 0 0;
+  opacity: 0px;
+  background-image: url("img/sad-smile-tutorial.png");
+  background-repeat: no-repeat;
+}
+
+#tutorial-2-container #tutorial-2-title {
+  width: 200px;
+  height: 20px;
+  top: 150px;
+  gap: 0px;
+  opacity: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+  position: absolute;
+  color: #071629;
+}
+
+#tutorial-2-container #tutorial-2-description {
+  width: 242px;
+  height: 48px;
+  top: 189.6px;
+  gap: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  position: absolute;
+}
+
+#tutorial-2-video-player {
+  width: 64px;
+  height: 64px;
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /*/* Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
+}
+
+#tutorial-2-container #tutorial-2-author-name-container {
+  display: flex; /* Makes it a flex container */
+  align-items: center; /* Centers items vertically */
+  position: absolute; /* Adjust as needed */
+  top: 270px;
+  left: 0px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+}
+
+#tutorial-2-container #tutorial-2-author-name {
+  width: 100px; /* Adjusted for the name element */
+  height: 30px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  margin-left: 15px; /* Adds spacing between image and name, if needed */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: -30px;
+  color: #c271ff;
+}
+
+#tutorial-2-container #tutorial-2-author-image {
+  width: 25px;
+  height: 25px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  background-image: url("img/phillip-massey-pro.png"); /* Adjusted for the image element */
+  background-size: cover; /* Scale the image to cover the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  left: -50px;
+}
+
+#tutorial-2-container #tutorial-2-star-rating-play-time-container {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  top: 310px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+}
+
+#tutorial-2-container #tutorial-2-star-rating {
+  opacity: 1;
+}
+
+#tutorial-2-container #tutorial-2-play-time {
+  opacity: 1;
+  color: #c271ff;
+  font-weight: 700;
+  width: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  margin-top: -5px;
+  margin-left: 100px;
+}
+
+#tutorial-3-container {
+  width: 255px;
+  height: 255px;
+  top: 115px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#tutorial-3-container #tutorial-3-video-thumbnail {
+  width: 255px;
+  height: 154px;
+  gap: 0px;
+  border-radius: 5px 5px 0 0;
+  opacity: 0px;
+  background-image: url("img/natural-smile-tutorial.png");
+  background-repeat: no-repeat;
+}
+
+#tutorial-3-container #tutorial-3-title {
+  width: 200px;
+  height: 20px;
+  top: 150px;
+  gap: 0px;
+  opacity: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+  position: absolute;
+  color: #071629;
+}
+
+#tutorial-3-container #tutorial-3-description {
+  width: 242px;
+  height: 48px;
+  top: 189.6px;
+  gap: 0px;
+  opacity: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  position: absolute;
+}
+
+#tutorial-3-video-player {
+  width: 64px;
+  height: 64px;
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /* Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
+}
+
+#tutorial-3-container #tutorial-3-author-name-container {
+  display: flex; /* Makes it a flex container */
+  align-items: center; /* Centers items vertically */
+  position: absolute; /* Adjust as needed */
+  top: 270px;
+  left: 0px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+}
+
+#tutorial-3-container #tutorial-3-author-name {
+  width: 100px; /* Adjusted for the name element */
+  height: 30px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  margin-left: 15px; /* Adds spacing between image and name, if needed */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: -30px;
+  color: #c271ff;
+}
+
+#tutorial-3-container #tutorial-3-author-image {
+  width: 25px;
+  height: 25px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  background-image: url("img/phillip-massey-pro.png"); /* Adjusted for the image element */
+  background-size: cover; /* Scale the image to cover the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  left: -50px;
+}
+
+#tutorial-3-container #tutorial-3-star-rating-play-time-container {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  top: 310px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+}
+
+#tutorial-3-container #tutorial-3-star-rating {
+  opacity: 1;
+}
+
+#tutorial-3-container #tutorial-3-play-time {
+  opacity: 1;
+  color: #c271ff;
+  font-weight: 700;
+  width: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  margin-top: -5px;
+  margin-left: 100px;
+}
+
+#tutorial-4-container {
+  width: 255px;
+  height: 255px;
+  top: 115px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#tutorial-4-container #tutorial-4-video-thumbnail {
+  width: 255px;
+  height: 154px;
+  gap: 0px;
+  border-radius: 5px 5px 0 0;
+  opacity: 0px;
+  background-image: url("img/happy-smile-tutorial.png");
+  background-repeat: no-repeat;
+}
+
+#tutorial-4-container #tutorial-4-title {
+  width: 200px;
+  height: 20px;
+  top: 150px;
+  gap: 0px;
+  opacity: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+  position: absolute;
+  color: #071629;
+}
+
+#tutorial-4-container #tutorial-4-description {
+  width: 242px;
+  height: 48px;
+  top: 189.6px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  position: absolute;
+}
+
+#tutorial-4-video-player {
+  width: 64px;
+  height: 64px;
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /*Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
+}
+
+#tutorial-4-container #tutorial-4-author-name-container {
+  display: flex; /* Makes it a flex container */
+  align-items: center; /* Centers items vertically */
+  position: absolute; /* Adjust as needed */
+  top: 270px;
+  left: 0px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+}
+
+#tutorial-4-container #tutorial-4-author-name {
+  width: 100px; /* Adjusted for the name element */
+  height: 30px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  margin-left: 15px; /* Adds spacing between image and name, if needed */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: -30px;
+  color: #c271ff;
+}
+
+#tutorial-4-container #tutorial-4-author-image {
+  width: 25px;
+  height: 25px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  background-image: url("img/phillip-massey-pro.png"); /* Adjusted for the image element */
+  background-size: cover; /* Scale the image to cover the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  left: -50px;
+}
+
+#tutorial-4-container #tutorial-4-star-rating-play-time-container {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  top: 310px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+}
+
+#tutorial-4-container #tutorial-4-star-rating {
+  opacity: 1;
+}
+
+#tutorial-4-container #tutorial-4-play-time {
+  opacity: 1;
+  color: #c271ff;
+  font-weight: 700;
+  width: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  margin-top: -5px;
+  margin-left: 100px;
+}
+
+.membership-container {
+  width: auto;
+  height: 500px;
+  top: 1093px;
+  gap: 0px;
+  opacity: 1;
+  background-color: #071629;
+  justify-content: center;
+  align-items: center;
+}
+
+#membership-container-membership-content {
+  width: 1440;
+  height: 400px;
+  top: 0px;
+  gap: 0px;
+  opacity: 1;
+  position: relative;
+  left: 20px;
+  right: 50px;
+}
+
+#membership-container-container-title {
+  line-height: 40.22px;
+  text-align: center;
+  width: 50%;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  left: 345px;
+  font-weight: 300 !important;
+  top: 20px;
+}
+
+#membership-container-title-free {
+  width: auto;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #c271ff;
+}
+#membership-container-title-membership {
+  width: auto;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+
+.membership-options-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 125px;
+  margin-top: 100px;
+}
+
+#membership-container-membership-option-1,
+#membership-container-membership-option-2,
+#membership-container-membership-option-3,
+#membership-container-membership-option-4 {
+  flex: 1 1 22%; /* Flex-grow, flex-shrink, and flex-basis */
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#membership-container-membership-option-1 .icon img,
+#membership-container-membership-option-2 .icon img,
+#membership-container-membership-option-3 .icon img,
+#membership-container-membership-option-4 .icon img {
+  width: 50px;
+  height: 50px;
+}
+
+#membership-container-membership-option-1 .title,
+#membership-container-membership-option-2 .title,
+#membership-container-membership-option-3 .title,
+#membership-container-membership-option-4 .title {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #fff;
+}
+
+#membership-container-membership-option-1 .description,
+#membership-container-membership-option-2 .description,
+#membership-container-membership-option-3 .description,
+#membership-container-membership-option-4 .description {
+  font-size: 1em;
+  color: #333;
+  color: #fff;
+}
+
+.membership-options-select-membership {
+  margin-top: 20px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.membership-options-select-membership-button {
+  width: 162px;
+  height: 44px;
+  justify-content: center;
+  gap: 0px;
+  opacity: 1;
+  box-shadow: 0px 2px 20px 0px #00000080;
+  background-color: #c271ff;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  line-height: 44px;
+  cursor: pointer;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  width: 200px;
+  border-radius: 200px;
+}
+
+/* FAQ Section */
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.faq-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.faq-title {
+  margin-bottom: 5px;
+}
+
+.faq-title h1 {
+  font-size: 4em;
+  color: #071629;
+  text-align: center;
+}
+
+#faq-column-1,
+#faq-column-2,
+#faq-column-3,
+#faq-column-4 {
+  flex: 1;
+  max-width: 45%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 10px;
+  /* padding: 50px; */
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: justify;
+}
+#faq-column-1 h3,
+#faq-column-2 h3,
+#faq-column-3 h3,
+#faq-column-4 h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#faq-column-1 p,
+#faq-column-2 p,
+#faq-column-3 p,
+#faq-column-4 p {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.75;
+}
+
+/* Footer Section */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #071629;
+  height: 240px;
+}
+
+.footer-container .logo-div img {
+  height: auto;
+  width: 100%;
+}
+
+.footer-container .social-icons a {
+  margin: 0 10px;
+}
+
+.footer-container .social-icons img {
+  height: 30px;
+}
