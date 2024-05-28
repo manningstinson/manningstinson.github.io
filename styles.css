@@ -144,7 +144,6 @@ a:link {
   font-family: sans-serif; /* Apply sans-serif font as fallback */
   float: right;
   padding: 0 20px; /* Adjusted padding */
-  font-size: 0.75rem;
   text-decoration: none; /* Ensure no underline on unvisited links */
 }
 
