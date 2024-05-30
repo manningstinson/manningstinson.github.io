@@ -359,4 +359,3 @@ The font used for this project is "Source Sans Pro", available from Google Fonts
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap">
 </head>
 ```
-```
