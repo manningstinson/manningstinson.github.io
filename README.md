@@ -1,6 +1,4 @@
-Sure! Here is the README in markdown format:
 
-```markdown
 # Smile School Website
 
 This README provides an overview of the Smile School webpage structure and styling.
