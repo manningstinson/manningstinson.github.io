@@ -1162,9 +1162,11 @@ a:visited {
 }
 
 .faq-title h1 {
-  font-size: 4em;
+  font-size: 3em;
   color: #071629;
   text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  
 }
 
 #faq-column-1,
