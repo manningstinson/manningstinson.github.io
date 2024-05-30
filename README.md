@@ -1,4 +1,7 @@
 
+<img width="1200" alt="css-advanced-header" src="https://github.com/manningstinson/atlas-web-development/assets/104523090/aceb040d-5456-4554-a63c-e5cbcc905c9c">
+
+
 # Smile School Website
 
 This README provides an overview of the Smile School webpage structure and styling.
